@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "<<access_token>>"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://sandbox.identitymind.com/im/account/consumer/7b1c3332b213418788e26f0d470bb8c6"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"ednaScoreCard\":{\"sc\":[{\"test\":\"ed:1\",\"details\":\"true\"}],\"etr\":[{\"test\":\"ed:20\",\"details\":\"true\"},{\"test\":\"ed:31\",\"details\":\"true\"},{\"test\":\"ed:2\",\"details\":\"true\"},{\"test\":\"ed:1\",\"details\":\"true\"},{\"test\":\"ed:28\",\"details\":\"true\"}],\"er\":{\"profile\":\"DEFAULT\",\"reportedRule\":{\"name\":\"Sandbox Rule\",\"details\":\"[Fired] details\",\"description\":\"Rule fired from sandbox\",\"ruleId\":1002,\"testResults\":[{\"test\":\"ed:1\",\"fired\":true,\"details\":\"[Fired] details\",\"condition\":{\"left\":\"ed:1\",\"right\":true,\"operator\":\"eq\"},\"ts\":1539702547000,\"stage\":\"1\"}],\"resultCode\":\"ACCEPT\"}}},\"mtid\":\"7b1c3332b213418788e26f0d470bb8c6\",\"state\":\"A\",\"tid\":\"7b1c3332b213418788e26f0d470bb8c6\",\"rcd\":\"\"}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Connection": "keep-alive",
+        "X-Cache-Status": "NOTCACHED",
+        "X-Zen-Fury": "9d4209332ec49d48a48bdd4a3367e67b0d349560",
+        "Date": "Tue, 16 Oct 2018 15:49:07 GMT",
+        "Content-Length": "670",
+        "Via": "1.1 sandbox.identitymind.com",
+        "Server": "ZENEDGE",
+        "X-Cdn": "Served-By-Zenedge"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

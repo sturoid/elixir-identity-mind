@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "{:multipart, [{\"appId\", \"7b1c3332b213418788e26f0d470bb8c6\"}, {\"description\", \"Driver's license\"}, {:file, \"/Users/stu/Code/pt/ex_identity_mind/test/fixtures/dl.jpg\", {\"form-data\", [name: \"file\", filename: \"dl.jpg\"]}, []}]}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "<<access_token>>"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://sandbox.identitymind.com/im/account/consumer/7b1c3332b213418788e26f0d470bb8c6/files"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"filename\":\"dl.jpg\",\"success\":\"file saved\"}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Connection": "keep-alive",
+        "X-Cache-Status": "NOTCACHED",
+        "X-Zen-Fury": "9d4209332ec49d48a48bdd4a3367e67b0d349560",
+        "Date": "Tue, 16 Oct 2018 23:08:41 GMT",
+        "Content-Length": "44",
+        "Via": "1.1 sandbox.identitymind.com",
+        "Server": "ZENEDGE",
+        "X-Cdn": "Served-By-Zenedge"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

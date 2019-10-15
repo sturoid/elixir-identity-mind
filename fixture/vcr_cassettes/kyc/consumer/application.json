@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "{\"man\":\"Marth Stewart Account\",\"ip\":null,\"bsn\":null,\"aflid\":null,\"pcty\":null,\"soc\":null,\"sz\":null,\"ssn\":null,\"accountCreationTime\":null,\"pw\":null,\"stage\":null,\"personalguarantee\":null,\"assn\":\"US:123456789\",\"profile\":null,\"dfp\":null,\"phash\":null,\"scanData\":null,\"dft\":null,\"bc\":null,\"ptoken\":null,\"title\":\"Martha Stewart\",\"aflsd\":null,\"dob\":\"1941-09-03\",\"pm\":null,\"sln\":null,\"bln\":null,\"memo\":null,\"bz\":null,\"blg\":null,\"phn\":null,\"sco\":null,\"assnl4\":\"6789\",\"clat\":null,\"sfn\":null,\"m\":null,\"bs\":null,\"pccn\":null,\"pcct\":null,\"tea\":\"martha@marthastewart.com\",\"backsideImageData\":null,\"pbc\":null,\"tid\":null,\"clong\":null,\"merchantAid\":null,\"ownership\":null,\"bfn\":null,\"tti\":null,\"sc\":null,\"faceImageData\":null,\"bco\":null,\"pach\":null,\"ss\":null}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "<<access_token>>"
+      },
+      "method": "post",
+      "options": [],
+      "request_body": "",
+      "url": "https://sandbox.identitymind.com/im/account/consumer"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\"user\":\"UNKNOWN\",\"upr\":\"UNKNOWN\",\"ednaScoreCard\":{\"sc\":[{\"test\":\"ed:1\",\"details\":\"true\"}],\"etr\":[{\"test\":\"ed:20\",\"details\":\"true\"},{\"test\":\"ed:31\",\"details\":\"true\"},{\"test\":\"ed:2\",\"details\":\"true\"},{\"test\":\"ed:1\",\"details\":\"true\"},{\"test\":\"ed:28\",\"details\":\"true\"}],\"er\":{\"profile\":\"DEFAULT\",\"reportedRule\":{\"name\":\"Sandbox Rule\",\"details\":\"[Fired] details\",\"description\":\"Rule fired from sandbox\",\"ruleId\":1002,\"testResults\":[{\"test\":\"ed:1\",\"fired\":true,\"details\":\"[Fired] details\",\"condition\":{\"left\":\"ed:1\",\"right\":true,\"operator\":\"eq\"},\"ts\":1539703042000,\"stage\":\"1\"}],\"resultCode\":\"ACCEPT\"}}},\"frn\":\"Sandbox Rule\",\"frp\":\"ACCEPT\",\"frd\":\"[Fired] details\",\"mtid\":\"edace6341a51490ebda853ac07d8822c\",\"state\":\"A\",\"tid\":\"edace6341a51490ebda853ac07d8822c\",\"res\":\"ACCEPT\",\"rcd\":\"131,101,50005,150,202,1002\",\"erd\":\"Unknown User\"}",
+      "headers": {
+        "Content-Type": "application/json",
+        "Connection": "keep-alive",
+        "X-Cache-Status": "NOTCACHED",
+        "X-Zen-Fury": "9d4209332ec49d48a48bdd4a3367e67b0d349560",
+        "Date": "Tue, 16 Oct 2018 15:49:07 GMT",
+        "Content-Length": "825",
+        "Via": "1.1 sandbox.identitymind.com",
+        "Server": "ZENEDGE",
+        "X-Cdn": "Served-By-Zenedge"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

@@ -1,4 +1,4 @@
-# ex_identity_mind
+# ex-identity-mind
 
 Elixir client for IdentityMind verification service.
 
